@@ -1,0 +1,31 @@
+// replase icon if 7zip 32bit
+[FILENAMES]
+Exe=7zip\Orig7z\7z32\7z.dll
+SaveAs=7zip\public\Orig7z\7z32\7z.dll
+Log=7zip\Orig7z\7z32_log.txt
+[COMMANDS]
+-addoverwrite 7zip\res\0.ico, ICONGROUP,0,0
+-addoverwrite 7zip\res\1.ico, ICONGROUP,1,0
+-addoverwrite 7zip\res\2.ico, ICONGROUP,2,0
+-addoverwrite 7zip\res\3.ico, ICONGROUP,3,0
+-addoverwrite 7zip\res\4.ico, ICONGROUP,4,0
+-addoverwrite 7zip\res\5.ico, ICONGROUP,5,0
+-addoverwrite 7zip\res\6.ico, ICONGROUP,6,0
+-addoverwrite 7zip\res\7.ico, ICONGROUP,7,0
+-addoverwrite 7zip\res\8.ico, ICONGROUP,8,0
+-addoverwrite 7zip\res\9.ico, ICONGROUP,9,0
+-addoverwrite 7zip\res\10.ico, ICONGROUP,10,0
+-addoverwrite 7zip\res\11.ico, ICONGROUP,11,0
+-addoverwrite 7zip\res\12.ico, ICONGROUP,12,0
+-addoverwrite 7zip\res\13.ico, ICONGROUP,13,0
+-addoverwrite 7zip\res\14.ico, ICONGROUP,14,0
+-addoverwrite 7zip\res\15.ico, ICONGROUP,15,0
+-addoverwrite 7zip\res\16.ico, ICONGROUP,16,0
+-addoverwrite 7zip\res\17.ico, ICONGROUP,17,0
+-addoverwrite 7zip\res\18.ico, ICONGROUP,18,0
+-addoverwrite 7zip\res\19.ico, ICONGROUP,19,0
+-addoverwrite 7zip\res\20.ico, ICONGROUP,20,0
+-addoverwrite 7zip\res\21.ico, ICONGROUP,21,0
+-addoverwrite 7zip\res\22.ico, ICONGROUP,22,0
+-addoverwrite 7zip\res\23.ico, ICONGROUP,23,0
+-addoverwrite 7zip\res\24.ico, ICONGROUP,24,0
