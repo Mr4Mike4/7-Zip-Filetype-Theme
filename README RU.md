@@ -1,5 +1,7 @@
 # 7-Zip Filetype Theme - Windows 10
 
+![Preview ico](https://github.com/Mr4Mike4/7-Zip-Filetype-Theme/raw/master/7zip/Windows_10_7zip_theme/preview_big.png)
+
 Иконки 7-Zip в стиле Windows 10 от [masamunecyrus](https://masamunecyrus.deviantart.com/).
 
 **NSIS** - версия с поддержкой распаковки nsis
