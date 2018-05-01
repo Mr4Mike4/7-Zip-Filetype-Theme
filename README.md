@@ -6,8 +6,6 @@
 
 This is a Windows 10 icon theme for 7-Zip by [masamunecyrus](https://masamunecyrus.deviantart.com/).
 
-**NSIS** - support extract nsis
-
-### Installation
+**NSIS** - support extract nsis by [pasynok]()
 
 Extract the file **7z.dll** into 7-Zip folder.

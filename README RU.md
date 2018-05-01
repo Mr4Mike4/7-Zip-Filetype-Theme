@@ -4,7 +4,7 @@
 
 Иконки 7-Zip в стиле Windows 10 от [masamunecyrus](https://masamunecyrus.deviantart.com/).
 
-**NSIS** - версия с поддержкой распаковки nsis
+**NSIS** - версия с поддержкой распаковки nsis от [pasynok]()
 
 ### Установка
 
@@ -33,7 +33,8 @@
 - patch_7zip32_NSIS.bat
 - patch_7zip64.bat
 - patch_7zip64_NSIS.bat
-Или общий скрипты для всех файлов сразу:
+
+  Или общий скрипты для всех файлов сразу:
 - start_7zip.bat
 - start_7zip_NSIS.bat
 1. Пропатченный файл **7z.dll** скопировать в папку с 7-Zip из:
