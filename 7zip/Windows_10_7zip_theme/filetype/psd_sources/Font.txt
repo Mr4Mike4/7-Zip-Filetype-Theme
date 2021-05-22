@@ -1,0 +1,15 @@
+Segoe UI - Regular
+color - #000000
+256x256.png - 48pt
+64x64.png - 12pt
+48x48.png - 9pt
+40x40.png - 8pt
+32x32.png - 8pt
+24x24.png - 7pt
+20x20.png - 7pt
+16x16.png - 10pt - Calibri
+
+ZST
+LZ4
+LZ5
+LIZ
