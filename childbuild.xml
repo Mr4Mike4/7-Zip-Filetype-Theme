@@ -1,0 +1,43 @@
+<project name="7ZipResource" basedir="." default="create_arh">
+	<!-- <property name="arc_file" value="7z_zstd_ico.7z" />
+    <property name="script_32" value="7z32_zstd_res_script.txt"/>
+    <property name="script_64" value="7z64_zstd_res_script.txt"/>
+	<property name="src" location="src\zstd\zstd" />
+	<property name="path_script" location="theme_windows_10\scripts\zstd" />
+	<property name="path_result" location="theme_windows_10\result\zstd" />
+	<property name="path_info" location="theme_windows_10\info" /> -->
+	<property name="dist" location="dist" />
+    <property name="executable_resource_hacker" location="ResourceHacker\ResourceHacker.exe"/>
+    <property name="executable_7z" location="c:\Program Files\7-Zip\7z.exe"/>
+	<target name="init">
+		<!-- Create the time stamp -->
+	</target>
+	<target name="replace_32_resource" depends="init">
+		<exec executable="${executable_resource_hacker}" failonerror="true">
+			<arg value="-script" />
+			<arg value="${path_script}\${script_32}" />
+		</exec>
+	</target>
+	<target name="replace_64_resource" depends="replace_32_resource">
+		<exec executable="${executable_resource_hacker}" failonerror="true">
+			<arg value="-script" />
+			<arg value="${path_script}\${script_64}" />
+		</exec>
+	</target>
+	<target name="delete_arh">
+		<delete file="${dist}\${arc_file_name}.7z"/>
+	</target>
+	<target name="create_arh" depends="replace_64_resource">
+		<exec executable="${executable_7z}" failonerror="true">
+			<arg value="a" />
+			<arg value="-t7z" />
+			<arg value="${dist}\${arc_file_name}.7z" />
+			<arg value="${path_result}\*" />
+			<arg value="${path_info}\*" />
+			<arg value="-m0=LZMA2:x=9" />
+			<arg value="-x!.gitignore" />
+			<arg value="-x!*\.gitignore" />
+		</exec>
+	</target>
+
+</project>

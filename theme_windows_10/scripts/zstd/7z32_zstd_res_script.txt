@@ -1,0 +1,35 @@
+// replase icon if 7zip 32bit
+[FILENAMES]
+Exe=src\zstd\7z32\7z.dll
+SaveAs=theme_windows_10\result\zstd\7z32\7z.dll
+Log=theme_windows_10\scripts\zstd\7z32_log.txt
+[COMMANDS]
+-addoverwrite theme_windows_10\Windows_10_res\0_7z.ico, ICONGROUP,0,0
+-addoverwrite theme_windows_10\Windows_10_res\1_zip.ico, ICONGROUP,1,0
+-addoverwrite theme_windows_10\Windows_10_res\2_bz2.ico, ICONGROUP,2,0
+-addoverwrite theme_windows_10\Windows_10_res\3_rar.ico, ICONGROUP,3,0
+-addoverwrite theme_windows_10\Windows_10_res\4_arj.ico, ICONGROUP,4,0
+-addoverwrite theme_windows_10\Windows_10_res\5_z.ico, ICONGROUP,5,0
+-addoverwrite theme_windows_10\Windows_10_res\6_lha.ico, ICONGROUP,6,0
+-addoverwrite theme_windows_10\Windows_10_res\7_cab.ico, ICONGROUP,7,0
+-addoverwrite theme_windows_10\Windows_10_res\8_iso.ico, ICONGROUP,8,0
+-addoverwrite theme_windows_10\Windows_10_res\9_001.ico, ICONGROUP,9,0
+-addoverwrite theme_windows_10\Windows_10_res\10_rpm.ico, ICONGROUP,10,0
+-addoverwrite theme_windows_10\Windows_10_res\11_deb.ico, ICONGROUP,11,0
+-addoverwrite theme_windows_10\Windows_10_res\12_cpio.ico, ICONGROUP,12,0
+-addoverwrite theme_windows_10\Windows_10_res\13_tar.ico, ICONGROUP,13,0
+-addoverwrite theme_windows_10\Windows_10_res\14_gz.ico, ICONGROUP,14,0
+-addoverwrite theme_windows_10\Windows_10_res\15_wim.ico, ICONGROUP,15,0
+-addoverwrite theme_windows_10\Windows_10_res\16_lzh.ico, ICONGROUP,16,0
+-addoverwrite theme_windows_10\Windows_10_res\17_dmg.ico, ICONGROUP,17,0
+-addoverwrite theme_windows_10\Windows_10_res\18_hfs.ico, ICONGROUP,18,0
+-addoverwrite theme_windows_10\Windows_10_res\19_xar.ico, ICONGROUP,19,0
+-addoverwrite theme_windows_10\Windows_10_res\20_vhd.ico, ICONGROUP,20,0
+-addoverwrite theme_windows_10\Windows_10_res\21_fat.ico, ICONGROUP,21,0
+-addoverwrite theme_windows_10\Windows_10_res\22_ntfs.ico, ICONGROUP,22,0
+-addoverwrite theme_windows_10\Windows_10_res\23_xz.ico, ICONGROUP,23,0
+-addoverwrite theme_windows_10\Windows_10_res\24_sq.ico, ICONGROUP,24,0
+-addoverwrite theme_windows_10\Windows_10_res\25_zst.ico, ICONGROUP,25,0
+-addoverwrite theme_windows_10\Windows_10_res\26_lz4.ico, ICONGROUP,26,0
+-addoverwrite theme_windows_10\Windows_10_res\27_lz5.ico, ICONGROUP,27,0
+-addoverwrite theme_windows_10\Windows_10_res\28_liz.ico, ICONGROUP,28,0

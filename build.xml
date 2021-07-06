@@ -1,0 +1,36 @@
+<project name="7Zip_arh" basedir="." default="orig7z">
+	<property name="version_orig7z" value="2102"/>
+	<property name="version_nsis" value="1806"/>
+	<property name="version_zstd" value="2102_v1.5.0"/>
+	
+	<target name="orig7z">
+		<ant antfile="childbuild.xml">
+			<property name="arc_file_name" value="7z${version_orig7z}_win_10_ico" />
+			<property name="script_32" value="7z32_res_script.txt" />
+			<property name="script_64" value="7z64_res_script.txt" />
+			<property name="path_script" location="theme_windows_10\scripts\Orig7z" />
+			<property name="path_result" location="theme_windows_10\result\Orig7z" />
+			<property name="path_info" location="theme_windows_10\info" />
+		</ant>
+	</target>
+	<target name="nsis">
+		<ant antfile="childbuild.xml">
+			<property name="arc_file_name" value="7z${version_nsis}_NSIS_win_10_ico" />
+			<property name="script_32" value="7z32_NSIS_res_script.txt" />
+			<property name="script_64" value="7z64_NSIS_res_script.txt" />
+			<property name="path_script" location="theme_windows_10\scripts\NSIS" />
+			<property name="path_result" location="theme_windows_10\result\NSIS" />
+			<property name="path_info" location="theme_windows_10\info" />
+		</ant>
+	</target>
+	<target name="zstd">
+		<ant antfile="childbuild.xml">
+			<property name="arc_file_name" value="7z${version_zstd}_zstd_win_10_ico" />
+			<property name="script_32" value="7z32_zstd_res_script.txt" />
+			<property name="script_64" value="7z64_zstd_res_script.txt" />
+			<property name="path_script" location="theme_windows_10\scripts\zstd" />
+			<property name="path_result" location="theme_windows_10\result\zstd" />
+			<property name="path_info" location="theme_windows_10\info" />
+		</ant>
+	</target>
+</project>
