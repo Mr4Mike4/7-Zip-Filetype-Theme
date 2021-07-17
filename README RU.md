@@ -1,8 +1,12 @@
 # 7-Zip Filetype Theme
 
-![Preview Windows 10 ico](https://github.com/Mr4Mike4/7-Zip-Filetype-Theme/raw/master/Windows_10_7zip_theme/preview_big.png)
+![Preview Windows 10 ico](https://github.com/Mr4Mike4/7-Zip-Filetype-Theme/raw/master/theme_windows_10/info/preview_big.png)
 
-Иконки 7-Zip в стиле Windows 10 от [masamunecyrus](https://masamunecyrus.deviantart.com/).
+Иконки 7-Zip в стиле Windows 10 от [masamunecyrus](https://www.deviantart.com/masamunecyrus).
+
+![Preview Fluent ico](https://github.com/Mr4Mike4/7-Zip-Filetype-Theme/raw/master/theme_fluent/info/preview.jpg)
+
+Иконки 7-Zip Fluent (Windows 11) от [Th3Z](https://www.deviantart.com/th3z).
 
 **NSIS** - версия с поддержкой распаковки nsis от [pasynok]()
 
@@ -18,7 +22,7 @@
 
 1. Скачать [ResourceHacker](http://www.angusj.com/resourcehacker/) и распаковать в папку **ResourceHacker**.
 1. Скачать и установить [Apache Ant](https://ant.apache.org/).
-1. Скопировать оригинальные файл **7z.dll** в одну из папкок:
+1. Скопировать оригинальные файлы **7z.dll** в папки:
 
 - src\Orig7z\x32\
 - src\Orig7z\x64\
@@ -29,11 +33,10 @@
 
 1. Запустить сборку:
 
-- ant.bat -buildfile build.xml orig7z
-- ant.bat -buildfile build.xml nsis
-- ant.bat -buildfile build.xml zstd
+- ant.bat -buildfile build.xml theme_win10
+- ant.bat -buildfile build.xml theme_fluent
 
   Или общую команду для всего сразу:
-- ant.bat -buildfile build.xml orig7z nsis zstd
+- ant.bat -buildfile build.xml theme_win10 theme_fluent
 
 1. Пропатченный файлы искать в папке **dist**.
