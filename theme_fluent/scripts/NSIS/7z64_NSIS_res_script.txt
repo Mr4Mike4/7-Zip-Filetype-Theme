@@ -1,0 +1,31 @@
+// replase icon if 7zip 64bit
+[FILENAMES]
+Exe=src\NSIS\7z64\7z.dll
+SaveAs=theme_fluent\result\NSIS\7z64\7z.dll
+Log=theme_fluent\scripts\NSIS\7z64_log.txt
+[COMMANDS]
+-addoverwrite theme_fluent\fluent_res\7z.ico, ICONGROUP,0,0
+-addoverwrite theme_fluent\fluent_res\zip.ico, ICONGROUP,1,0
+-addoverwrite theme_fluent\fluent_res\bz2.ico, ICONGROUP,2,0
+-addoverwrite theme_fluent\fluent_res\rar.ico, ICONGROUP,3,0
+-addoverwrite theme_fluent\fluent_res\arj.ico, ICONGROUP,4,0
+-addoverwrite theme_fluent\fluent_res\z.ico, ICONGROUP,5,0
+-addoverwrite theme_fluent\fluent_res\lha.ico, ICONGROUP,6,0
+-addoverwrite theme_fluent\fluent_res\cab.ico, ICONGROUP,7,0
+-addoverwrite theme_fluent\fluent_res\iso.ico, ICONGROUP,8,0
+-addoverwrite theme_fluent\fluent_res\001.ico, ICONGROUP,9,0
+-addoverwrite theme_fluent\fluent_res\rpm.ico, ICONGROUP,10,0
+-addoverwrite theme_fluent\fluent_res\deb.ico, ICONGROUP,11,0
+-addoverwrite theme_fluent\fluent_res\cpio.ico, ICONGROUP,12,0
+-addoverwrite theme_fluent\fluent_res\tar.ico, ICONGROUP,13,0
+-addoverwrite theme_fluent\fluent_res\gz.ico, ICONGROUP,14,0
+-addoverwrite theme_fluent\fluent_res\wim.ico, ICONGROUP,15,0
+-addoverwrite theme_fluent\fluent_res\lzh.ico, ICONGROUP,16,0
+-addoverwrite theme_fluent\fluent_res\dmg.ico, ICONGROUP,17,0
+-addoverwrite theme_fluent\fluent_res\hfs.ico, ICONGROUP,18,0
+-addoverwrite theme_fluent\fluent_res\xar.ico, ICONGROUP,19,0
+-addoverwrite theme_fluent\fluent_res\vhd.ico, ICONGROUP,20,0
+-addoverwrite theme_fluent\fluent_res\fat.ico, ICONGROUP,21,0
+-addoverwrite theme_fluent\fluent_res\ntfs.ico, ICONGROUP,22,0
+-addoverwrite theme_fluent\fluent_res\xz.ico, ICONGROUP,23,0
+-addoverwrite theme_fluent\fluent_res\sq.ico, ICONGROUP,24,0

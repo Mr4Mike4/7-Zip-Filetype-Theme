@@ -13,13 +13,13 @@
 		<!-- Create the time stamp -->
 	</target>
 	<target name="replace_32_resource" depends="init">
-		<exec executable="${executable_resource_hacker}" failonerror="true">
+		<exec executable="${executable_resource_hacker}" failonerror="true" failifexecutionfails="true">
 			<arg value="-script" />
 			<arg value="${path_script}\${script_32}" />
 		</exec>
 	</target>
 	<target name="replace_64_resource" depends="replace_32_resource">
-		<exec executable="${executable_resource_hacker}" failonerror="true">
+		<exec executable="${executable_resource_hacker}" failonerror="true" failifexecutionfails="true">
 			<arg value="-script" />
 			<arg value="${path_script}\${script_64}" />
 		</exec>
@@ -28,7 +28,7 @@
 		<delete file="${dist}\${arc_file_name}.7z"/>
 	</target>
 	<target name="create_arh" depends="replace_64_resource">
-		<exec executable="${executable_7z}" failonerror="true">
+		<exec executable="${executable_7z}" failonerror="true" failifexecutionfails="true">
 			<arg value="a" />
 			<arg value="-t7z" />
 			<arg value="${dist}\${arc_file_name}.7z" />
