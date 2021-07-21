@@ -1,10 +1,13 @@
 <project name="7Zip_arh" basedir="." default="orig7z">
-	<property name="version_orig7z" value="2102" />
+	<property name="version_orig7z" value="2103" />
 	<property name="version_nsis" value="1806" />
 	<property name="version_zstd" value="2102_v1.5.0" />
-	<target name="orig7z" if="${theme.dir}">
+	<target name="orig7z_res">
+		<echo>
+			replace ${theme.dir}
+		</echo>
 		<ant antfile="childbuild.xml">
-			<property name="arc_file_name" value="7z${version_orig7z}_${theme.dir}_ico" />
+			<property name="arc_file_name" value="7z${version_orig7z}_${theme.suffix}_ico" />
 			<property name="script_32" value="7z32_res_script.txt" />
 			<property name="script_64" value="7z64_res_script.txt" />
 			<property name="path_script" location="${theme.dir}\scripts\Orig7z" />
@@ -12,9 +15,12 @@
 			<property name="path_info" location="${theme.dir}\info" />
 		</ant>
 	</target>
-	<target name="nsis" if="${theme.dir}">
+	<target name="nsis_res">
+		<echo>
+			replace ${theme.dir}
+		</echo>
 		<ant antfile="childbuild.xml">
-			<property name="arc_file_name" value="7z${version_nsis}_NSIS_${theme.dir}_ico" />
+			<property name="arc_file_name" value="7z${version_nsis}_NSIS_${theme.suffix}_ico" />
 			<property name="script_32" value="7z32_NSIS_res_script.txt" />
 			<property name="script_64" value="7z64_NSIS_res_script.txt" />
 			<property name="path_script" location="${theme.dir}\scripts\NSIS" />
@@ -22,9 +28,12 @@
 			<property name="path_info" location="${theme.dir}\info" />
 		</ant>
 	</target>
-	<target name="zstd" if="${theme.dir}">
+	<target name="zstd_res">
+		<echo>
+			replace ${theme.dir}
+		</echo>
 		<ant antfile="childbuild.xml">
-			<property name="arc_file_name" value="7z${version_zstd}_zstd_${theme.dir}_ico" />
+			<property name="arc_file_name" value="7z${version_zstd}_zstd_${theme.suffix}_ico" />
 			<property name="script_32" value="7z32_zstd_res_script.txt" />
 			<property name="script_64" value="7z64_zstd_res_script.txt" />
 			<property name="path_script" location="${theme.dir}\scripts\zstd" />
@@ -32,18 +41,35 @@
 			<property name="path_info" location="${theme.dir}\info" />
 		</ant>
 	</target>
-	<target name="theme_win10">
-		<property name="theme.dir" value="theme_windows_10" />
-		<property name="theme.suffix" value="win_10" />
-		<antcall target="orig7z" />
-		<!-- <antcall target="nsis" /> -->
-		<antcall target="zstd" />
+
+	<target name="orig7z">
+		<antcall target="orig7z_res">
+			<param name="theme.dir" value="theme_windows_10" />
+			<param name="theme.suffix" value="win_10" />
+		</antcall>
+		<antcall target="orig7z_res">
+			<param name="theme.dir" value="theme_fluent" />
+			<param name="theme.suffix" value="fluent" />
+		</antcall>
 	</target>
-	<target name="theme_fluent">
-		<property name="theme.dir" value="theme_fluent" />
-		<property name="theme.suffix" value="fluent" />
-		<antcall target="orig7z" />
-		<!-- <antcall target="nsis" /> -->
-		<antcall target="zstd" />
+	<target name="nsis">
+		<antcall target="nsis_res">
+			<param name="theme.dir" value="theme_windows_10" />
+			<param name="theme.suffix" value="win_10" />
+		</antcall>
+		<antcall target="nsis_res">
+			<param name="theme.dir" value="theme_fluent" />
+			<param name="theme.suffix" value="fluent" />
+		</antcall>
+	</target>
+	<target name="zstd">
+		<antcall target="zstd_res">
+			<param name="theme.dir" value="theme_windows_10" />
+			<param name="theme.suffix" value="win_10" />
+		</antcall>
+		<antcall target="zstd_res">
+			<param name="theme.dir" value="theme_fluent" />
+			<param name="theme.suffix" value="fluent" />
+		</antcall>
 	</target>
 </project>

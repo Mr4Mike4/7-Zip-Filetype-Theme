@@ -33,10 +33,11 @@
 
 1. Запустить сборку:
 
-- ant.bat -buildfile build.xml theme_win10
-- ant.bat -buildfile build.xml theme_fluent
+- ant.bat -buildfile build.xml orig7z
+- ant.bat -buildfile build.xml nsis
+- ant.bat -buildfile build.xml zstd
 
   Или общую команду для всего сразу:
-- ant.bat -buildfile build.xml theme_win10 theme_fluent
+- ant.bat -buildfile build.xml orig7z nsis zstd
 
 1. Пропатченный файлы искать в папке **dist**.
