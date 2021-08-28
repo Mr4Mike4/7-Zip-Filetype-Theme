@@ -1,8 +1,8 @@
 // replase icon if 7zip 32bit
 [FILENAMES]
 Exe=src\zstd\7z32\7z.dll
-SaveAs=theme_windows_10\result\zstd\7z32\7z.dll
-Log=theme_windows_10\scripts\zstd\7z32_log.txt
+SaveAs=theme_fluent\result\zstd\7z32\7z.dll
+Log=theme_fluent\scripts\zstd\7z32_log.txt
 [COMMANDS]
 -addoverwrite theme_fluent\fluent_res\7z.ico, ICONGROUP,0,0
 -addoverwrite theme_fluent\fluent_res\zip.ico, ICONGROUP,1,0
