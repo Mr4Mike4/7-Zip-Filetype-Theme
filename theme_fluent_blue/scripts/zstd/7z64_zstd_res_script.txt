@@ -1,0 +1,35 @@
+// replase icon if 7zip 64bit
+[FILENAMES]
+Exe=src\zstd\7z64\7z.dll
+SaveAs=theme_fluent_blue\result\zstd\7z64\7z.dll
+Log=theme_fluent_blue\scripts\zstd\7z64_log.txt
+[COMMANDS]
+-addoverwrite theme_fluent_blue\theme_res\7z.ico, ICONGROUP,0,0
+-addoverwrite theme_fluent_blue\theme_res\zip.ico, ICONGROUP,1,0
+-addoverwrite theme_fluent_blue\theme_res\bz2.ico, ICONGROUP,2,0
+-addoverwrite theme_fluent_blue\theme_res\rar.ico, ICONGROUP,3,0
+-addoverwrite theme_fluent_blue\theme_res\arj.ico, ICONGROUP,4,0
+-addoverwrite theme_fluent_blue\theme_res\z.ico, ICONGROUP,5,0
+-addoverwrite theme_fluent_blue\theme_res\lha.ico, ICONGROUP,6,0
+-addoverwrite theme_fluent_blue\theme_res\cab.ico, ICONGROUP,7,0
+-addoverwrite theme_fluent_blue\theme_res\iso.ico, ICONGROUP,8,0
+-addoverwrite theme_fluent_blue\theme_res\001.ico, ICONGROUP,9,0
+-addoverwrite theme_fluent_blue\theme_res\rpm.ico, ICONGROUP,10,0
+-addoverwrite theme_fluent_blue\theme_res\deb.ico, ICONGROUP,11,0
+-addoverwrite theme_fluent_blue\theme_res\cpio.ico, ICONGROUP,12,0
+-addoverwrite theme_fluent_blue\theme_res\tar.ico, ICONGROUP,13,0
+-addoverwrite theme_fluent_blue\theme_res\gz.ico, ICONGROUP,14,0
+-addoverwrite theme_fluent_blue\theme_res\wim.ico, ICONGROUP,15,0
+-addoverwrite theme_fluent_blue\theme_res\lzh.ico, ICONGROUP,16,0
+-addoverwrite theme_fluent_blue\theme_res\dmg.ico, ICONGROUP,17,0
+-addoverwrite theme_fluent_blue\theme_res\hfs.ico, ICONGROUP,18,0
+-addoverwrite theme_fluent_blue\theme_res\xar.ico, ICONGROUP,19,0
+-addoverwrite theme_fluent_blue\theme_res\vhd.ico, ICONGROUP,20,0
+-addoverwrite theme_fluent_blue\theme_res\fat.ico, ICONGROUP,21,0
+-addoverwrite theme_fluent_blue\theme_res\ntfs.ico, ICONGROUP,22,0
+-addoverwrite theme_fluent_blue\theme_res\xz.ico, ICONGROUP,23,0
+-addoverwrite theme_fluent_blue\theme_res\sq.ico, ICONGROUP,24,0
+-addoverwrite theme_fluent_blue\theme_res\zst.ico, ICONGROUP,25,0
+-addoverwrite theme_fluent_blue\theme_res\lz4.ico, ICONGROUP,26,0
+-addoverwrite theme_fluent_blue\theme_res\lz5.ico, ICONGROUP,27,0
+-addoverwrite theme_fluent_blue\theme_res\liz.ico, ICONGROUP,28,0

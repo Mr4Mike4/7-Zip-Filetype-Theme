@@ -6,7 +6,7 @@
 
 This is a Windows 10 icon theme for 7-Zip by [masamunecyrus](https://www.deviantart.com/masamunecyrus).
 
-![Preview Fluent ico](https://github.com/Mr4Mike4/7-Zip-Filetype-Theme/raw/master/theme_fluent/info/preview.jpg)
+![Preview Fluent ico](https://github.com/Mr4Mike4/7-Zip-Filetype-Theme/raw/master/theme_fluent/info/preview.jpg) ![Preview Fluent Blue ico](https://github.com/Mr4Mike4/7-Zip-Filetype-Theme/raw/master/theme_fluent_blue/info/preview.jpg)
 
 7-Zip icon Fluent (Windows 11) by [Th3Z](https://www.deviantart.com/th3z).
 

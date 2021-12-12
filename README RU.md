@@ -4,7 +4,7 @@
 
 Иконки 7-Zip в стиле Windows 10 от [masamunecyrus](https://www.deviantart.com/masamunecyrus).
 
-![Preview Fluent ico](https://github.com/Mr4Mike4/7-Zip-Filetype-Theme/raw/master/theme_fluent/info/preview.jpg)
+![Preview Fluent ico](https://github.com/Mr4Mike4/7-Zip-Filetype-Theme/raw/master/theme_fluent/info/preview.jpg) ![Preview Fluent Blue ico](https://github.com/Mr4Mike4/7-Zip-Filetype-Theme/raw/master/theme_fluent_blue/info/preview.jpg)
 
 Иконки 7-Zip Fluent (Windows 11) от [Th3Z](https://www.deviantart.com/th3z).
 

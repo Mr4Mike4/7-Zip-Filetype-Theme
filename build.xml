@@ -1,7 +1,7 @@
 <project name="7Zip_arh" basedir="." default="orig7z">
-	<property name="version_orig7z" value="2103" />
+	<property name="version_orig7z" value="2106" />
 	<property name="version_nsis" value="1806" />
-	<property name="version_zstd" value="2102_v1.5.0" />
+	<property name="version_zstd" value="21.03_v1.5.0_R1" />
 	<target name="orig7z_res">
 		<echo>
 			replace ${theme.dir}
@@ -51,6 +51,10 @@
 			<param name="theme.dir" value="theme_fluent" />
 			<param name="theme.suffix" value="fluent" />
 		</antcall>
+		<antcall target="orig7z_res">
+			<param name="theme.dir" value="theme_fluent_blue" />
+			<param name="theme.suffix" value="fluent_blue" />
+		</antcall>
 	</target>
 	<target name="nsis">
 		<antcall target="nsis_res">
@@ -61,15 +65,23 @@
 			<param name="theme.dir" value="theme_fluent" />
 			<param name="theme.suffix" value="fluent" />
 		</antcall>
+		<antcall target="nsis_res">
+			<param name="theme.dir" value="theme_fluent_blue" />
+			<param name="theme.suffix" value="fluent_blue" />
+		</antcall>
 	</target>
 	<target name="zstd">
-		<antcall target="zstd_res">
+		<!-- <antcall target="zstd_res">
 			<param name="theme.dir" value="theme_windows_10" />
 			<param name="theme.suffix" value="win_10" />
-		</antcall>
+		</antcall> -->
 		<antcall target="zstd_res">
 			<param name="theme.dir" value="theme_fluent" />
 			<param name="theme.suffix" value="fluent" />
+		</antcall>
+		<antcall target="zstd_res">
+			<param name="theme.dir" value="theme_fluent_blue" />
+			<param name="theme.suffix" value="fluent_blue" />
 		</antcall>
 	</target>
 </project>
