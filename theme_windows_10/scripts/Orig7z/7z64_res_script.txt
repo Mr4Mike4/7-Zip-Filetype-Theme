@@ -29,3 +29,4 @@ Log=theme_windows_10\scripts\Orig7z\7z64_log.txt
 -addoverwrite theme_windows_10\Windows_10_res\22_ntfs.ico, ICONGROUP,22,0
 -addoverwrite theme_windows_10\Windows_10_res\23_xz.ico, ICONGROUP,23,0
 -addoverwrite theme_windows_10\Windows_10_res\24_sq.ico, ICONGROUP,24,0
+-addoverwrite theme_windows_10\Windows_10_res\apfs.ico, ICONGROUP,25,0
