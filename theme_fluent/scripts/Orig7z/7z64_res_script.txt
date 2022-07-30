@@ -29,4 +29,4 @@ Log=theme_fluent\scripts\Orig7z\7z64_log.txt
 -addoverwrite theme_fluent\fluent_res\ntfs.ico, ICONGROUP,22,0
 -addoverwrite theme_fluent\fluent_res\xz.ico, ICONGROUP,23,0
 -addoverwrite theme_fluent\fluent_res\sq.ico, ICONGROUP,24,0
--addoverwrite theme_fluent\fluent_res\apm.ico, ICONGROUP,25,0
+-addoverwrite theme_fluent\fluent_res\apfs.ico, ICONGROUP,25,0
