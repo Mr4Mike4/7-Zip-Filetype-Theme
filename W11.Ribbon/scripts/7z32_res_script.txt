@@ -1,0 +1,21 @@
+// replase icon if 7zip 32bit
+[FILENAMES]
+Exe=src\7zFM\7z32\7zFM.exe
+SaveAs=W11.Ribbon\result\7z32\7zFM.exe
+Log=W11.Ribbon\scripts\7z32_log.txt
+[COMMANDS]
+-addoverwrite W11.Ribbon\src\Bitmap100.res, BITMAP,100,
+-addoverwrite W11.Ribbon\src\Bitmap101.res, BITMAP,101,
+-addoverwrite W11.Ribbon\src\Bitmap102.res, BITMAP,102,
+-addoverwrite W11.Ribbon\src\Bitmap103.res, BITMAP,103,
+-addoverwrite W11.Ribbon\src\Bitmap104.res, BITMAP,104,
+-addoverwrite W11.Ribbon\src\Bitmap105.res, BITMAP,105,
+-addoverwrite W11.Ribbon\src\Bitmap106.res, BITMAP,106,
+-addoverwrite W11.Ribbon\src\Bitmap150.res, BITMAP,150,
+-addoverwrite W11.Ribbon\src\Bitmap151.res, BITMAP,151,
+-addoverwrite W11.Ribbon\src\Bitmap152.res, BITMAP,152,
+-addoverwrite W11.Ribbon\src\Bitmap153.res, BITMAP,153,
+-addoverwrite W11.Ribbon\src\Bitmap154.res, BITMAP,154,
+-addoverwrite W11.Ribbon\src\Bitmap155.res, BITMAP,155,
+-addoverwrite W11.Ribbon\src\Bitmap156.res, BITMAP,156,
+-addoverwrite W11.Ribbon\src\Bitmap190.res, BITMAP,190,
