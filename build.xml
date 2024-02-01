@@ -1,5 +1,5 @@
 <project name="7Zip_arh" basedir="." default="orig7z">
-	<property name="version_orig7z" value="2301" />
+	<property name="version_orig7z" value="2401" />
 	<property name="version_nsis" value="1806" />
 	<property name="version_zstd" value="21.03_v1.5.0_R1" />
 	<target name="orig7z_res">

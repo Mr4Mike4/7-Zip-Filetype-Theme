@@ -30,3 +30,4 @@ Log=theme_fluent_blue\scripts\Orig7z\7z32_log.txt
 -addoverwrite theme_fluent_blue\theme_res\xz.ico, ICONGROUP,23,0
 -addoverwrite theme_fluent_blue\theme_res\sq.ico, ICONGROUP,24,0
 -addoverwrite theme_fluent_blue\theme_res\apfs.ico, ICONGROUP,25,0
+-addoverwrite theme_fluent_blue\theme_res\zst.ico, ICONGROUP,26,0
